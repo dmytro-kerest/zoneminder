@@ -5,7 +5,7 @@ docker run -d --name="Zoneminder" \
 --privileged="true" \
 -p 8443:443/tcp \
 -p 9000:9000/tcp \
--e TZ="America/New_York" \
+-e TZ="Europe/Kiev" \
 -e SHMEM="512mb" \
 -e PUID="1000" \
 -e PGID="100" \
